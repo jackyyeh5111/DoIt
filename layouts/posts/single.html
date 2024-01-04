@@ -43,9 +43,9 @@
         {{- /* Meta */ -}}
         <div class="post-meta">
             <div class="post-meta-line">
-                <span class="post-author">
+                <!-- <span class="post-author">
                     {{- partial "meta/author.html" . }}
-                </span>
+                </span> -->
                 {{- with .Params.categories | or .Params.series -}}
                     &nbsp;<span class="post-category">
                         {{- T "includedIn" | safeHTML -}}
@@ -217,7 +217,7 @@
             {{- dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
         </div>
 
-        {{/* Related Content */}}
+        <!-- {{/* Related Content */}}
         {{- if $params.related.enable -}}
             {{- partial "related.html" . -}}
         {{- end -}}
@@ -229,6 +229,6 @@
         {{- partial "single/footer.html" . -}}
 
         {{- /* Comment */ -}}
-        {{- partial "comment.html" . -}}
+        {{- partial "comment.html" . -}} -->
     </article>
 {{- end -}}
