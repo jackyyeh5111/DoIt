@@ -1,5 +1,21 @@
 {{- $profile := .Site.Params.home.profile -}}
 
+<style>
+    .jacky_tag {
+        display: inline;
+        padding: 0.2em 0.6em 0.3em;
+        font-size: 75%;
+        font-weight: 700;
+        line-height: 1;
+        background-color: #484646;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: baseline;
+        border-radius: 0.25em;
+    }
+</style>
+
 <div class="home-profile">
     {{- $avatar := $profile.avatarURL -}}
     {{- with $profile.gravatarEmail -}}
@@ -44,6 +60,12 @@
             Please dive into my <a href="/showcase" style="color: #55bde2;">projects</a>, check out my
             <a href="https://docs.google.com/document/d/1N-OsT5p1-EnVr6GEIEaUAOtXhvcR8wKJLZhg-g76B44/edit" style="color: #55bde2;" target="_blank">CV</a> 
             or learn more <a href="/about" style="color: #55bde2;">about me</a>.
+            <br><br>
+            Tags: 
+            <span class="jacky_tag">software developer</span>
+            <span class="jacky_tag">cappuccino addict</span>
+            <span class="jacky_tag">study group launcher</span>
+            <span class="jacky_tag">meditator</span>
         </h2>
     {{- end -}}
 
