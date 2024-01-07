@@ -81,9 +81,9 @@
                 {{- end -}}
             </div>
             <div class="post-meta-line">
-                {{- with .Site.Params.dateformat | default "2006-01-02" | .PublishDate.Format -}}
+                <!-- {{- with .Site.Params.dateformat | default "2006-01-02" | .PublishDate.Format -}}
                     <i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="{{ . }}">{{ . }}</time>&nbsp;
-                {{- end -}}
+                {{- end -}} -->
                 {{- if $params.enableLastMod | default true -}}
                     {{- with .Site.Params.dateformat | default "2006-01-02" | .Lastmod.Format -}}
                         <i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="{{ . }}">{{ . }}</time>&nbsp;

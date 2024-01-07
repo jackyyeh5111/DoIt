@@ -4,7 +4,7 @@ github:
   Prefix: https://github.com/
   Title: GitHub
   Icon:
-    Class: fab fa-github-alt fa-fw
+    Class: fab fa-github fa-fw
 
 # 002: LinkedIn
 linkedin:
@@ -439,12 +439,12 @@ researchgate:
     Class: fab fa-researchgate fa-fw
 
 # 056: Mastodon
-mastodon:
-  Weight: 56
-  Prefix: https://mastodon.social/
-  Title: Mastodon
-  Icon:
-    Class: fab fa-mastodon fa-fw
+# mastodon:
+#   Weight: 56
+#   Prefix: https://mastodon.social/
+#   Title: Mastodon
+#   Icon:
+#     Class: fab fa-mastodon fa-fw
 
 # 057: Thingiverse
 thingiverse:
@@ -550,11 +550,11 @@ qqgroup:
     Src: svg/icons/qqGroup.svg
 
 # 070: Diaspora
-diaspora:
-  Weight: 70
-  Title: diaspora*
-  Icon:
-    Simpleicons: diaspora
+# diaspora:
+#   Weight: 70
+#   Title: diaspora*
+#   Icon:
+#     Simpleicons: diaspora
 
 # 071: Email
 email:
